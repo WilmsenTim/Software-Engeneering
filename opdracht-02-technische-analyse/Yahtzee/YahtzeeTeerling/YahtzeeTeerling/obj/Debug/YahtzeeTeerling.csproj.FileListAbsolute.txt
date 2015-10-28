@@ -1,0 +1,64 @@
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe.config
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.pdb
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csprojResolveAssemblyReference.cache
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Properties.Resources.resources
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.TeerlingView.resources
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csproj.GenerateResource.Cache
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.exe
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.pdb
+c:\users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Yahtzee.resources
+C:\Users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.ScoreboardView.resources
+C:\Users\vince\documents\visual studio 2015\Projects\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.WerpView.resources
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe.config
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.exe
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.pdb
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.pdb
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csprojResolveAssemblyReference.cache
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Yahtzee.resources
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Properties.Resources.resources
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.ScoreboardView.resources
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.TeerlingView.resources
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.WerpView.resources
+C:\Users\Tim\Downloads\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csproj.GenerateResource.Cache
+C:\Users\Tim\Documents\KDG\Software Engeneering\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe.config
+C:\Users\Tim\Documents\KDG\Software Engeneering\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.exe
+C:\Users\Tim\Documents\KDG\Software Engeneering\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.pdb
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe.config
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.exe
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.pdb
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.pdb
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csprojResolveAssemblyReference.cache
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Yahtzee.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Properties.Resources.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.ScoreboardView.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.TeerlingView.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.WerpView.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csproj.GenerateResource.Cache
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe.config
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.exe
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.pdb
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe.config
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.exe
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.pdb
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csprojResolveAssemblyReference.cache
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Yahtzee.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Properties.Resources.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.ScoreboardView.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.TeerlingView.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.WerpView.resources
+C:\Users\Tim\Documents\KDG\Software Engeneering\Les 4\kdg-software-engineering-2015-2016\VIR-3D\Tim-Wilmsen\opdracht-03-versiebeheer\opdracht in team werken\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe.config
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.exe
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.pdb
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.exe
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\bin\Debug\YahtzeeTeerling.pdb
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csprojResolveAssemblyReference.cache
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Yahtzee.resources
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.Properties.Resources.resources
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.ScoreboardView.resources
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.TeerlingView.resources
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.WerpView.resources
+C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-02-technische-analyse\Yahtzee\YahtzeeTeerling\YahtzeeTeerling\obj\Debug\YahtzeeTeerling.csproj.GenerateResource.Cache
