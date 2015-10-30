@@ -10,7 +10,7 @@ namespace Roulette
     {
         public Roulette _container;
 
-        private BoardView _boardView;
+        public BoardView _boardView;
         public BoardModel _boardModel;
 
         public BoardController(Roulette container)

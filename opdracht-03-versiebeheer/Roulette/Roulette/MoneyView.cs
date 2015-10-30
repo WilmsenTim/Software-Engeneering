@@ -22,9 +22,24 @@ namespace Roulette
             _controller = c;
 
             InitializeComponent();
-            starter_money = lbl_money;
+            changeMoney(_controller._Container.money);
 
             lbl_money.Font = new Font(lbl_money.Font.FontFamily, lbl_money.Font.Size + 10f, lbl_money.Font.Style);
+            lbl_money.ForeColor = Color.White;
+        }
+
+
+        public void changeMoney(int amount)
+        {
+            if (amount >= 0)
+            {
+                lbl_money.Text = "Money: " + amount.ToString();
+            }
+            else
+            {
+                lbl_money.Text = "You have no more money";
+            }
+            _controller._Container.money = amount;
         }
     }
 }

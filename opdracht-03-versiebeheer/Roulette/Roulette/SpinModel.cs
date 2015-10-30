@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Roulette
 {
@@ -10,6 +11,7 @@ namespace Roulette
     {
 
         private int number;
+        private Button spinButton;
 
         public SpinModel()
         {
@@ -26,6 +28,20 @@ namespace Roulette
             {
                 number = value;
             }
+        }
+
+        public Button SpinButton
+        {
+
+            get
+            {
+                return spinButton;
+            }
+            set
+            {
+                spinButton = value;
+            }
+
         }
 
     }

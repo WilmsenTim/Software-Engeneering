@@ -13,16 +13,26 @@ namespace Roulette
 {
     public partial class Roulette : Form
     {
+        public string name = "Player";
+        public int moneySelected = 0;
+        public int money = 5000;
         public static PlayerStats player1 = new PlayerStats("Speler1", 500);
+
         private RouletteController _controller;
+
         List<MakeBetController> bets = new List<MakeBetController>();
         List<BoardController> numbers = new List<BoardController>();
         List<SpinController> spin = new List<SpinController>();
 
 
+        BoardController zero;
+
+
         MoneyController moneyC;
         MoneyView moneyV;
 
+
+        //public bool newSpin = false;
 
         public Roulette(RouletteController rC)
         {
@@ -39,23 +49,18 @@ namespace Roulette
 
         private void Roulette_Load(object sender, EventArgs e)
         {
+            Console.WriteLine(money);
             int aantalNummers = 1;
             int marginHorizontal = 5;
             int marginVertical = 5;
             int marginLeftFromNumbers = 50;
 
 
-
-           
-
             ////////// SPIN START //////////
-
-
-
             for (int spinNummer = 0; spinNummer < aantalNummers; ++spinNummer)
             {
                 // Maak instantie aan van spinController
-                SpinController tijdelijkeTeerling = new SpinController( this );
+                SpinController tijdelijkeTeerling = new SpinController(this);
 
                 spin.Add(tijdelijkeTeerling);
             }
@@ -78,7 +83,7 @@ namespace Roulette
 
 
             ////////// BOARD START //////////
-            
+
             //controllers maken
             for (int i = 0; i < 36; i++)
             {
@@ -95,66 +100,66 @@ namespace Roulette
             {
                 BoardView boardView = numbers[i].getView();
 
-                
+
                 int horizontalPosition = aantalNummers * spin[0].getView().Width + marginLeftFromNumbers + widthAmount * (boardView.Width + marginHorizontal);
-                int verticalPosition = heightAmount * (boardView.Height + marginVertical);
-                boardView.Location = new System.Drawing.Point(horizontalPosition,verticalPosition);
+                int verticalPosition = (heightAmount * (boardView.Height + marginVertical)) + 10;
+                boardView.Location = new System.Drawing.Point(horizontalPosition, verticalPosition);
                 heightAmount++;
-                if(heightAmount == 3)
+                if (heightAmount == 3)
                 {
                     heightAmount = 0;
                     widthAmount++;
                 }
-                
+
                 boardView.setNumber(i + 1);
                 boardView.setColour();
                 Controls.Add(boardView);
             }
+            // 0 button
+            zero = new BoardController(this);
+            BoardView zeroView = zero.getView();
+
+            zeroView.setNumber(0);
+            zeroView.resize(numbers[0].getView().Height * 3 + marginVertical * 2);
+            zeroView.Location = new System.Drawing.Point(spin[0].getView().Width + 6, 10);
+            zeroView.setColour();
+            ///
             ////////// BOARD END //////////
 
 
             ////////// BET START //////////
             int[] betAmounts = { 1, 5, 25, 100, 500 };
-            
+
 
             for (int i = 0; i < betAmounts.Length; i++)
             {
-                MakeBetController tempBet = new MakeBetController(betAmounts[i],this);
+                MakeBetController tempBet = new MakeBetController(betAmounts[i], this);
                 bets.Add(tempBet);
             }
             int amountBetsAdded = 0;
+            bool makeFirstActive = true;
             for (int i = 0; i < betAmounts.Length; i++)
             {
                 MakeBetView betView = bets[i].getView();
-                betView.Location = new System.Drawing.Point(500 + bets[0].getView().Width*amountBetsAdded, spin[0].getView().Height - betView.Height);
+                if (makeFirstActive)
+                {
+                    bets[i].getView().makeActive();
+                    makeFirstActive = false;
+                }
+                betView.Location = new System.Drawing.Point(500 + bets[0].getView().Width * amountBetsAdded, spin[0].getView().Height - betView.Height);
                 amountBetsAdded++;
                 Controls.Add(betView);
             }
 
-            MakeBetController bet1 = new MakeBetController(1,this);
+            MakeBetController bet1 = new MakeBetController(1, this);
             MakeBetView bet1View = bet1.getView();
             bet1View.Location = new System.Drawing.Point(500, spin[0].getView().Height - bet1View.Height);
             Controls.Add(bet1View);
             ////////// BET END //////////
 
 
-            BoardController zero = new BoardController(this);
-            BoardView zeroView = zero.getView();
 
-            zeroView.setNumber(0);
-            zeroView.resize(numbers[0].getView().Height*3+marginVertical*2);
-            zeroView.Location = new System.Drawing.Point(spin[0].getView().Width + 6, 0);
-            zeroView.setColour();
             Controls.Add(zeroView);
-            //numbers[0]._boardModel.BetAmount = 25;
-            //numbers[1]._boardModel.BetAmount = 26;
-            //numbers[2]._boardModel.BetAmount = 2555;
-            //numbers[3]._boardModel.BetAmount = 5500;
-            //numbers[4]._boardModel.BetAmount = 2545;
-            //numbers[5]._boardModel.BetAmount = 2545;
-            //numbers[6]._boardModel.BetAmount = 257775;
-
-            // Console.WriteLine(numbers[3]._boardModel.BetAmount);
 
 
             /////MONEY/////
@@ -163,13 +168,25 @@ namespace Roulette
 
             moneyV.Location = new System.Drawing.Point(spin[0].getView().Width + 5, spin[0].getView().Height - moneyC.getView().Height);
             Controls.Add(moneyV);
-
+            /////MONEY END/////
 
         }
 
+
+        public void otherBetSelected()
+        {
+            foreach (MakeBetController tempBetController in bets)
+            {
+                tempBetController.getView().makeBlack();
+
+            }
+        }
+
+
+
         public bool checkNumber()
         {
-            
+
 
             foreach (BoardController boardnumber in numbers) {
 
@@ -179,7 +196,7 @@ namespace Roulette
                 }
 
             }
-                
+
             return false;
         }
 
@@ -189,36 +206,62 @@ namespace Roulette
             int MoneyAmount = Roulette.player1.Money;
 
             int profit = 0;
-            //Console.WriteLine(numbers[3]._boardModel.BetAmount);
+
             int i = 0;
 
-            foreach(BoardController boardnumber in numbers)
+            foreach (BoardController boardnumber in numbers)
             {
                 i++;
 
                 if (boardnumber._boardModel.BetAmount > 0)
                 {
-                    
+
                     if (number == i)
                     {
-                        profit *= boardnumber._boardModel.BetAmount;
+                        profit = boardnumber._boardModel.BetAmount * (boardnumber._boardModel.BetAmount / 100);
 
-                        Console.WriteLine("positive" + profit);
+                        moneyV.changeMoney(money + profit);
 
-                        moneyV.starter_money.Text = "Money: " + (MoneyAmount + profit);
                     }
                     else
                     {
                         profit = boardnumber._boardModel.BetAmount;
 
-                        Console.WriteLine("negative" + profit);
-
-                        moneyV.starter_money.Text = "Money: " + (MoneyAmount - profit);
+                        moneyV.changeMoney(money - profit);
                     }
                 }
-                
+
             }
-            //Console.WriteLine("You have won: {0}", profit);
+
+        }
+
+        public void resetBet() {
+
+            foreach (BoardController boardnumber in numbers) {
+
+
+                if (boardnumber._boardModel.BetAmount > 0) {
+
+                    boardnumber._boardModel.BetAmount = 0;
+                    boardnumber._boardView.betText.Text = "";
+
+                    //if (boardnumber._boardView.betText.Text == "")
+                    //{
+
+                    //    newSpin = true;
+
+                    //}
+
+                    //else {
+
+                    //    newSpin = false;
+
+                    //}
+
+                }
+
+            }
+
         }
 
     }

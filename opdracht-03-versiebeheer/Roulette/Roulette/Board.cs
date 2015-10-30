@@ -14,6 +14,7 @@ namespace Roulette
     {
         private BoardController _controllerBoard;
         public Label boardLbl;
+        public Label betText;
 
         public BoardView(BoardController BoardC)
         {
@@ -24,6 +25,8 @@ namespace Roulette
             Number.ForeColor = Color.White;
             Bet.ForeColor = Color.White;
             boardLbl = Number;
+            betText = Bet;
+
             if(Bet.Text == "0")
             {
                 Bet.Text = "";

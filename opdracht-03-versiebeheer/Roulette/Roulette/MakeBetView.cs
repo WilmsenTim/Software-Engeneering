@@ -15,22 +15,35 @@ namespace Roulette
 
         private MakeBetController _controllerBet;
         public Label betLbl;
-        private Roulette container;
-        public MakeBetView(MakeBetController BetC, Roulette r)
+        public MakeBetView(MakeBetController BetC)
         {
             
             InitializeComponent();
-            container = r;
             _controllerBet = BetC;
             BetLabel.BackColor = Color.Black;
             BetLabel.ForeColor = Color.White;
         }
 
+        public void makeBlack()
+        {
+            BetLabel.BackColor = System.Drawing.Color.Black;
+        }
+
+        public void makeActive()
+        {
+            Roulette.player1.MoneySelected = _controllerBet.Amount;
+
+            _controllerBet._container.otherBetSelected();
+            BetLabel.BackColor = Color.Red;
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
             Roulette.player1.MoneySelected= _controllerBet.Amount;
+
+            _controllerBet._container.otherBetSelected();
             BetLabel.BackColor = Color.Red;
-            
+
 
         }
 

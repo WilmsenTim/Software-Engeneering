@@ -10,7 +10,7 @@ namespace Roulette
     {
         string name = "Player";
         int moneySelected = 0;
-        int money = 50;
+        int money = 5000;
 
 
         public string Name

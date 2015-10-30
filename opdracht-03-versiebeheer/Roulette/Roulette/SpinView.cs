@@ -13,7 +13,6 @@ namespace Roulette
     public partial class SpinView : UserControl
     {
         private SpinController _controllerSpin;
-        //private Roulette _Roulette = new Roulette();
 
         public Label spinlbl;
 
@@ -24,6 +23,8 @@ namespace Roulette
 
             Spin.Font = new Font(Spin.Font.FontFamily, Spin.Font.Size + 50f, Spin.Font.Style);
             spinlbl = Spin;
+
+            //btn_spin.Enabled = false;
         }
 
         private void btn_spin_Click(object sender, EventArgs e)
@@ -37,6 +38,22 @@ namespace Roulette
 
                 Spin.Text = nieuweWorp.ToString();
                 _controllerSpin._container.compareNumbers(nieuweWorp);
+                _controllerSpin._container.resetBet();
+
+                //if (_controllerSpin._container.newSpin)
+                //{
+
+                //    btn_spin.Enabled = false;
+
+                //}
+
+                //else {
+
+                //    btn_spin.Enabled = true;
+
+                //}
+
+
             }
         }
     }

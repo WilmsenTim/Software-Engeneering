@@ -55,3 +55,29 @@ C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-03-versiebeheer\Roulette\Roulette\obj\
 C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.Roulette.resources
 C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.SpinView.resources
 C:\Users\Tim\Desktop\Tim-Wilmsen\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.csproj.GenerateResource.Cache
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\bin\Debug\Roulette.exe.config
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.exe
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.pdb
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\bin\Debug\Roulette.exe
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\bin\Debug\Roulette.pdb
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.csprojResolveAssemblyReference.cache
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.BoardView.resources
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.MakeBetView.resources
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.MoneyView.resources
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.Properties.Resources.resources
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.Roulette.resources
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.SpinView.resources
+G:\Documents\School\2015-2016\Software engeneering\new\Roulette\Roulette\obj\Debug\Roulette.csproj.GenerateResource.Cache
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\bin\Debug\Roulette.exe.config
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.exe
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.pdb
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\bin\Debug\Roulette.exe
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\bin\Debug\Roulette.pdb
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.csprojResolveAssemblyReference.cache
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.BoardView.resources
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.MakeBetView.resources
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.MoneyView.resources
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.Properties.Resources.resources
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.Roulette.resources
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.SpinView.resources
+C:\Users\Tim\Documents\Github\Software-Engeneering\opdracht-03-versiebeheer\Roulette\Roulette\obj\Debug\Roulette.csproj.GenerateResource.Cache

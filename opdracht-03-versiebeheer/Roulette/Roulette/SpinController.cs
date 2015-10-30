@@ -12,7 +12,7 @@ namespace Roulette
 
         public Roulette _container;
 
-        private SpinView _spinView;
+        public  SpinView _spinView;
         public SpinModel _spinModel;
 
         public SpinController( Roulette container) {
@@ -21,8 +21,6 @@ namespace Roulette
 
             _spinView = new SpinView(this);
             _spinModel = new SpinModel();
-
-            
         }
 
         public void spinBal() {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Roulette
 {
@@ -10,6 +11,7 @@ namespace Roulette
     {
 
         private int moneyAmount = 0;
+        
 
         public MoneyModel() { }
 
@@ -25,6 +27,8 @@ namespace Roulette
                 moneyAmount = value;
             }
         }
+
+        
 
     }
 }
